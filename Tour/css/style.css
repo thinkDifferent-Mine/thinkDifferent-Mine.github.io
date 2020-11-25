@@ -1,0 +1,28 @@
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+.home-slider img{
+    filter: blur(2px);
+}
+.navbar-brand img{
+    height: 15%;
+    width: 15%;
+}
+.col-lg-6{
+    display: flex;
+    margin-left: auto;
+}
+.col-lg-6 p{
+    margin-left: 20px;
+    margin-top: 6px;
+}
+@media(max-width:767px){
+.header-section .navbar-brand img {
+    width: 100px;
+}
+}
+.footer-section p{
+    display: flex;
+    color: red;
+}
