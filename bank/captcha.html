@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <form action="captcha.js" method="post" onSubmit="return checkform(this);">
+            <label>Name</label>
+            <input name="name" type="text" required="required" />
+            <label>Email</label>
+            <input name="mail" type="email" required="required" />
+            <label>Phone</label>
+            <input type="text" name="phone" pattern="[789][0-9]{9}" required="required" />
+            <label>Comments</label>
+            <textarea name="comment" rows="3" cols="20" required="required"></textarea>
+            <label for="code">Write code below <span id="txtCaptchaDiv" style="color:#F00"></span>
+                <!-- this is where the script will place the generated code -->
+                <br/>
+                <input type="hidden" id="txtCaptcha" />
+            </label>
+            <input type="text" name="txtInput" id="txtInput" size="30" onfocus="validatePass(document.getElementById('txtCaptcha'), this);" oninput="validatePass(document.getElementById('txtCaptcha'), this);" />
+            <input type="submit" />
+        </form>
+    </body>
+</html>

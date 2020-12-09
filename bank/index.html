@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header id="h1"><table  cellpadding="13"><tr><th><b>NEW BANK</b></th></tr>
+</table> </header>
+     <section id="s1"></section>
+     <form id="f1" onsubmit="return validate()" name="form" action="bankPage.html">
+     <table>
+               <tr><th><h1 style="text-align: center;">SIGN UP</h1></th></tr>
+                    <tr><td><p style="color: red;"><i>Mandatory fields(*)</i></p></td></tr>
+          <tr><td><label>Full Name:</label></td>
+          <td><input type="text" placeholder="name" id="name" required>
+          <span id="nameV" style="color: tomato;"></span></td></tr>
+               <tr><td><label>Account Number:</label></td>
+               <td><input type="text" placeholder="account_number" id="acNo" required>
+               <span id="acNoV" style="color: tomato;"></span></td></tr>
+          <tr><td><label>Mob:</label></td>
+          <td><input type="text" placeholder="mob_number" id="mob" required>
+          <span id="mobV" style="color: tomato;"></span></td></tr>
+               <tr><td><label>Email:</label></td>
+               <td><input type="email" placeholder="example@gmail.com" id="email" required></td></tr>
+               <span id="emailV" style="color: tomato;"></span>
+          <tr><td><label>Password:</label></td>
+          <td><input type="password" placeholder="password" id="pwd" required>
+          <span id="pwdV" style="color: tomato;"></span></td></tr>
+               <tr><td><label>Confirm Password:</label></td>
+               <td><input type="password" placeholder="confirm_password" id="cpwd" required>
+               <span id="cpwdV" style="color: tomato;"></span></td></tr>
+
+          <tr><td>
+          <input type="button" name="capt" value="Create captcha" onclick="fun()"></td>
+          <td><input type="text" name="t1" id="pic" value=" " readonly=""></td></tr>
+          <tr><td></td>
+          <td><input type="text" type="text" placeholder="enter_captcha" id="cap" required>
+          <span id="captV" style="color: red;"></span><br></td></tr>
+
+     <tr><td><input type="submit" value="Submit"></td></tr>
+</table>
+</form>
+</body>
+<script src="signUp.js"></script>
+</html>

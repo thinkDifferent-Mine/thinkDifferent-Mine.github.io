@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main Page</title>
+<link rel="stylesheet" href="mainPage.css">
+</head>
+<body>
+    <header>NEW BANK</header>
+    <nav>
+        <a href="bankPage.html">HOME</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="bankPage.html">PERSONAL BANKING</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="bankPage.html">CORPORATE BANKING</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="bankPage.html">NRI BANKING</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="bankPage.html">CONTACT US</a>
+    </nav>
+    <form id="f1" onsubmit="return main()">
+       <div id="d1"><table>
+            <tr><td><label>Current Balance</label></td>
+            <td><input type="number" id="cb" required></td></tr>
+           <tr><td></td>
+            <td><span id="cbV" style="color: tomato;"></span></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td><label>Mode of Transactions</label></td>
+                <td><label>Description</label></td>
+                <td><label>Amount</label></td></tr>
+            <tr><td><select id="s1">
+        <option value="">SELECT</option>
+        <option value="Deposit">DEPOSIT</option>
+        <option value="Withdraw">WITHDRAW</option> 
+      </select></td>
+    <td><input type="text" placeholder="description" id="descp" required>
+        <span id="descpV" style="color: tomato;"></td>
+
+    <td><input type="number" placeholder="enter_the_amount" id="amt" required>
+        <span id="amtV" style="color: tomato;"></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+    <tr><td><input type="button" onclick="main()" value="Submit" id="b2Main"></td>
+        <td><input type="button" onclick="reset()" value="Reset" id="b2Main"></td></tr>
+    </table></form><br></div>
+    
+    <div id="d2">
+        <table id="td1">
+            <tr><th>Deposit</th></tr>
+            <tr id="r1"><td id="d1"><b>Description</b></td>
+            <td id="d1"><b>Amount Depositing</b></td></tr>
+        </table><br><br></div>
+        
+      <div id="d3">  <table id="td2">
+            <tr><th>Withdraw</th></tr>
+            <tr><td><b> Description</b></td>
+            <td><b>Amount Withdrawing</b></td></tr>
+        </table></div>
+        <div id="d4"></div>
+
+<script src="mainPage.js"></script>
+</body>
+</html>

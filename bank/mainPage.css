@@ -1,0 +1,72 @@
+body{
+    background-color: lavender;
+    
+}
+header
+{
+    height: 75px;
+    background-color:  lightslategray;
+    text-align: left;
+    font-size: 65px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    color: white;
+    
+}
+nav{
+    color: red;
+    font-size:20px;
+    height: 30px;
+    background-color: white;
+    padding: 10px 15px;
+    float: left;
+    width: 1303px;
+}
+#d1{
+    margin-top: 105px;
+    margin-left: 50px;
+}
+
+#d2{
+    margin-left: 50px;
+    height: 300px;
+    width: 300px;
+}
+#d3{
+    margin-top: -300px;
+    margin-left: 450px;
+    height: 300px;
+    width: 300px;
+}
+
+  th {
+    background-color:lightslategray;
+    color: white;
+    border-radius: 12px;
+    height: 25px;
+  }
+  
+  input[type="button"]
+{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    border: none;
+    border-radius: 29px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    background-color: lightslategray;
+}
+
+#d4
+{
+    margin-left: 775px;
+    margin-top: -475px;
+    height: 362px;
+    width: 520px;
+    background-image: url("main1.png");
+    
+}

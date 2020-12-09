@@ -1,0 +1,190 @@
+label:after{
+    content: "*";
+    color: red;
+}
+body{
+    background-color: lavender;
+}
+#h1
+{
+    height: 100px;
+    background-color:  lightslategray;
+    text-align: left;
+    font-size: 65px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: goldenrod;
+    
+}
+#s1{
+    background-image: url('crypto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    width: 600px;
+}
+#f1
+{
+    margin-top: -520px;
+    margin-left: 650px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 15px;
+    margin: 10px 0;
+    
+    cursor: pointer;
+    width: 100px;
+  }
+
+#f2
+{
+    margin-left: 300px;
+    margin-top: 120px;
+    background-color: white;
+    font-size: 16.5px;
+    height: 280px;
+    width: 480px;
+    padding: 25px 120px;
+}
+#h2
+{
+    height: 85px;
+    background-color:  lightslategray;
+    color: goldenrod;
+    margin-top: 0px;
+    padding: 8px 15px;
+    font-size: 75px;
+    
+}
+#h3
+{
+    height: 100px;
+    background-color:   rgb(16, 77, 99);
+    color: goldenrod;
+    margin-top: -47px;
+    padding: 0px 15px;
+    font-size: 40px;
+}
+nav{    
+    color: red;
+    font-size:20px;
+    height: 30px;
+    background-color: white;
+    padding: 10px 15px;
+}
+article{
+    border:solid lavender;;
+    height:437px;
+    width:300px;
+    background-image: url("Trade.jpg");
+}
+#d1{
+    
+        margin-left:300px;
+        margin-top: -3px;
+        width:580px;
+        height:118px;
+        color:darkgreen;
+        font-size: 20px;
+        text-align: justify;
+        background-image: url("yellow.jpg");
+        padding: 60px 20px;
+}
+#d2{
+    margin-left:925px;
+    width:405px;
+    height:239px;
+    margin-top: -238px;
+    background-color:  lavender;
+    background-repeat: no-repeat;
+}
+aside{
+    
+height:200px;
+width:1041px;
+margin-top:-206px;
+margin-left:303px;
+}
+#ar1{
+      height:210px;
+      width:342px;
+      margin-top: -222px;
+      text-align: center;
+  }
+
+#ar2{
+    
+    height:210px;
+      width:342px;
+      margin-top:-229px;
+      margin-left:342px;
+      text-align: center;
+  }
+
+#ar3{
+    
+    height:210px;
+      width:344px;
+      margin-top:-229px;
+      margin-left:684px;
+      text-align: center;
+  }
+
+footer{
+    margin-top:0px;
+height:45px;
+text-align: center;
+background-color: lightslategray;
+}
+input[type="submit"]
+{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    border: none;
+    border-radius: 29px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    background-color: lightslategray;
+}
+
+.c1
+{
+    margin-bottom: 28px;
+    padding: 35px 150px;
+    width: 120px;
+    height: 32px;
+    border: none;
+    border-radius: 29px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;    
+}
+
+img{
+    width:346px;
+      height:200px;
+      margin-top: -40px;
+      margin-bottom: 200px;
+}
+img:hover{
+    transform:rotateX(90deg);
+    transition-duration: 2s;
+}
+footer{
+    border:solid  lightblue;
+height:30px;
+text-align: center;
+background-color: rgb(16, 77, 99);
+}
+
+
